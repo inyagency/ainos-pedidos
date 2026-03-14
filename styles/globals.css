@@ -1,0 +1,41 @@
+/* AINOS Pedidos — Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --black: #1A1A1A;
+  --oxblood: #6F1D1B;
+  --gold: #D4A017;
+  --eggshell: #EFE6D8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: var(--black);
+  color: var(--eggshell);
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--oxblood);
+  color: var(--eggshell);
+}
+
+input, textarea, button {
+  font-family: 'DM Sans', sans-serif;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--gold) !important;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed !important;
+}
