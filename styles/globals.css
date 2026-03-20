@@ -1,41 +1,43 @@
-/* AINOS Pedidos — Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
 
 :root {
   --black: #1A1A1A;
   --oxblood: #6F1D1B;
   --gold: #D4A017;
   --eggshell: #EFE6D8;
+  --bg: #FAF8F5;
+  --white: #FFFFFF;
+  --border: #E8E0D5;
+  --text: #2A2A2A;
+  --text-muted: #7A6E65;
+  --error: #C0392B;
+  --success: #27AE60;
+  --shadow: 0 1px 4px rgba(26,26,26,0.08);
+  --shadow-md: 0 4px 16px rgba(26,26,26,0.10);
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 html, body {
-  background: var(--black);
-  color: var(--eggshell);
+  background: var(--bg);
+  color: var(--text);
   font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
-::selection {
-  background: var(--oxblood);
-  color: var(--eggshell);
-}
+h1, h2, h3, h4 { font-family: 'Nunito', sans-serif; }
 
-input, textarea, button {
-  font-family: 'DM Sans', sans-serif;
-}
+::selection { background: var(--oxblood); color: var(--eggshell); }
 
-input:focus, textarea:focus {
-  outline: none;
-  border-color: var(--gold) !important;
-}
+input, textarea, select, button { font-family: 'DM Sans', sans-serif; }
 
-button:disabled {
-  opacity: 0.4;
-  cursor: not-allowed !important;
-}
+input:focus, textarea:focus, select:focus { outline: none; border-color: var(--oxblood) !important; box-shadow: 0 0 0 3px rgba(111,29,27,0.10); }
+
+button:disabled { opacity: 0.45; cursor: not-allowed !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
