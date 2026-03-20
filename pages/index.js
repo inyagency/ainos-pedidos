@@ -38,7 +38,7 @@ const CATALOGO = {
       precio: 1.75,
       unidad: 'bolsa',
       categoria: 'Totopos',
-      imagen: '/images/nachos-180g.png',
+      imagen: '/images/totopos-180g.png',
       escalaImg: 1.0,
     },
     {
@@ -49,7 +49,7 @@ const CATALOGO = {
       precio: 4.25,
       unidad: 'bolsa',
       categoria: 'Totopos',
-      imagen: '/images/nachos-500g.png',
+      imagen: '/images/totopos-500g.png',
       escalaImg: 1.0,
     },
   ],
