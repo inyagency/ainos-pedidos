@@ -33,7 +33,11 @@ h1, h2, h3, h4 { font-family: 'Nunito', sans-serif; }
 
 input, textarea, select, button { font-family: 'DM Sans', sans-serif; }
 
-input:focus, textarea:focus, select:focus { outline: none; border-color: var(--oxblood) !important; box-shadow: 0 0 0 3px rgba(111,29,27,0.10); }
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--oxblood) !important;
+  box-shadow: 0 0 0 3px rgba(111,29,27,0.10);
+}
 
 button:disabled { opacity: 0.45; cursor: not-allowed !important; }
 
@@ -41,3 +45,10 @@ button:disabled { opacity: 0.45; cursor: not-allowed !important; }
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Datalist styling */
+input[list] { cursor: pointer; }
+
+/* Smooth transitions */
+* { transition-property: border-color, background-color, box-shadow; transition-duration: .15s; }
