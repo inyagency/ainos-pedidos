@@ -52,3 +52,8 @@ input[list] { cursor: pointer; }
 
 /* Smooth transitions */
 * { transition-property: border-color, background-color, box-shadow; transition-duration: .15s; }
+
+/* Hide number input arrows (for quantity inputs) */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; }
