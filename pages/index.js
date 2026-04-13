@@ -26,24 +26,24 @@ const TIPOS_NEGOCIO = [
 const PRODUCTOS_PERSONAL = [
   { id: 'tort-trad-dec', nombre: 'Tortillas Tradicionales x Decenas', desc: 'Paquete × 10 uds · 12.5 cm', precio: 1.75, unidad: 'paquete x10', cat: 'Tortillas', img: 'tortillas-tradicionales-decenas.jpg' },
   { id: 'tort-jumbo-dec', nombre: 'Tortillas Jumbo x Decenas', desc: 'Paquete × 10 uds · 18.5 cm', precio: 2.50, unidad: 'paquete x10', cat: 'Tortillas', img: 'tortillas-jumbo-decenas.jpg' },
-  { id: 'top-180', nombre: 'Totopos Crocantes 180gr', desc: 'Bolsa 180 gramos', precio: 1.75, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-180gr.jpg' },
-  { id: 'top-500', nombre: 'Totopos Crocantes 500gr', desc: 'Bolsa 500 gramos', precio: 4.25, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-500gr.jpg' },
+  { id: 'top-180', nombre: 'Totopos Crocantes 180gr', desc: 'Empaque de 180 gramos', precio: 1.75, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-180gr.jpg' },
+  { id: 'top-500', nombre: 'Totopos Crocantes 500gr', desc: 'Empaque de 500 gramos', precio: 4.25, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-500gr.jpg' },
 ]
 
 const PRODUCTOS_B2C = [
   ...PRODUCTOS_PERSONAL,
-  { id: 'top-90',  nombre: 'Totopos Crocantes 90gr',  desc: 'Bolsa 90 gramos',  precio: 1.10, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-90gr.jpg' },
-  { id: 'top-125', nombre: 'Totopos Crocantes 125gr', desc: 'Bolsa 125 gramos', precio: 1.20, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-125gr.jpg' },
-  { id: 'top-150', nombre: 'Totopos Crocantes 150gr', desc: 'Bolsa 150 gramos', precio: 1.35, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-150gr.jpg' },
+  { id: 'top-90',  nombre: 'Totopos Crocantes 90gr',  desc: 'Empaque de 90 gramos',  precio: 1.10, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-variaciones.jpg' },
+  { id: 'top-125', nombre: 'Totopos Crocantes 125gr', desc: 'Empaque de 125 gramos', precio: 1.20, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-variaciones.jpg' },
+  { id: 'top-150', nombre: 'Totopos Crocantes 150gr', desc: 'Empaque de 150 gramos', precio: 1.35, unidad: 'bolsa', cat: 'Totopos', img: 'totopos-variaciones.jpg' },
 ]
 
 const PRODUCTOS_B2B_EXTRA = [
   { id: 'tort-mini-25',   nombre: 'Tortilla Mini (x25 uni)',            desc: 'Paquete × 25 uds · 8 cm',       precio: 2.75, unidad: 'paquete x25', cat: 'Tortillas B2B', img: 'tortilla-mini.jpg' },
   { id: 'tort-med-50',    nombre: 'Tortilla Mediana (x50 uni)',          desc: 'Paquete × 50 uds · 11 cm',      precio: 6.50, unidad: 'paquete x50', cat: 'Tortillas B2B', img: 'tortilla-mediana.jpg' },
   { id: 'tort-grd-25',    nombre: 'Tortilla Grande (x25 uni)',           desc: 'Paquete × 25 uds · 13.5 cm',    precio: 4.50, unidad: 'paquete x25', cat: 'Tortillas B2B', img: 'tortilla-grande.jpg' },
-  { id: 'tort-xgrd-25',   nombre: 'Tortilla X-Grande (x25 uni)',         desc: 'Paquete × 25 uds · 15 cm',      precio: 5.25, unidad: 'paquete x25', cat: 'Tortillas B2B', img: 'tortilla-xgrande.jpg' },
+  { id: 'tort-xgrd-25',   nombre: 'Tortilla X-Grande (x25 uni)',         desc: 'Paquete × 25 uds · 15 cm',      precio: 5.25, unidad: 'paquete x25', cat: 'Tortillas B2B', img: 'tortillas-tradicionales-25uni.jpg' },
   { id: 'tort-cuad-25',   nombre: 'Tortilla Cuadrada (x25 uni)',         desc: 'Paquete × 25 uds · 12×14.5 cm', precio: 4.25, unidad: 'paquete x25', cat: 'Tortillas B2B', img: 'tortilla-cuadrada.jpg' },
-  { id: 'tort-trad-25',   nombre: 'Tortillas Tradicionales (x25 uni)',   desc: 'Paquete × 25 uds · 12.5 cm',    precio: 3.25, unidad: 'paquete x25', cat: 'Tortillas B2B', img: 'tortillas-tradicionales-decenas.jpg' },
+  { id: 'tort-trad-25',   nombre: 'Tortillas Tradicionales (x25 uni)',   desc: 'Paquete × 25 uds · 12.5 cm',    precio: 3.25, unidad: 'paquete x25', cat: 'Tortillas B2B', img: 'tortillas-tradicionales-25uni.jpg' },
   { id: 'sopes-20',       nombre: 'Sopes (x20 uni)',                     desc: 'Paquete × 20 uds · 9.5 cm',     precio: 4.40, unidad: 'paquete x20', cat: 'Tortillas B2B', img: 'sopes.jpg' },
   { id: 'migas-kg',       nombre: 'Migas de Maíz (x Kg)',                desc: 'Por kilogramo',                  precio: 1.00, unidad: 'kg',          cat: 'Granel', img: 'migas.jpg' },
   { id: 'masa-kg',        nombre: 'Masa de Maíz (x Kg)',                 desc: 'Por kilogramo',                  precio: 7.00, unidad: 'kg',          cat: 'Granel', img: 'masa-maiz.jpg' },
@@ -51,9 +51,9 @@ const PRODUCTOS_B2B_EXTRA = [
 
 // Clientes con productos especiales (por razon_social en Contifico)
 const ESPECIALES = {
-  'roast foods': [{ id: 'top-125-sp', nombre: 'Totopos Crocantes 125gr', desc: 'Bolsa 125g · Precio especial', precio: 1.20, unidad: 'bolsa', cat: 'Especiales', img: 'totopos-125gr.jpg', badge: 'Pedido fijo: 45 fundas' }],
+  'roast foods': [{ id: 'top-125-sp', nombre: 'Totopos Crocantes 125gr', desc: 'Empaque de 125g · Precio especial', precio: 1.20, unidad: 'bolsa', cat: 'Especiales', img: 'totopos-variaciones.jpg', badge: 'Pedido fijo: 45 fundas' }],
   meramexair:    [{ id: 'tort-doc',   nombre: 'Tortillas Tradicionales x Decenas', desc: 'Docena × 12 uds · Precio especial', precio: 1.50, unidad: 'docena x12', cat: 'Especiales', img: 'tortillas-tradicionales-decenas.jpg', badge: '1 docena gratis en OP' }],
-  'trayanna':    [{ id: 'top-90-sp',  nombre: 'Totopos Crocantes 90gr', desc: 'Bolsa 90g · Ecopark especial', precio: 1.10, unidad: 'bolsa', cat: 'Especiales', img: 'totopos-90gr.jpg' }],
+  'trayanna':    [{ id: 'top-90-sp',  nombre: 'Totopos Crocantes 90gr', desc: 'Empaque de 90g · Ecopark especial', precio: 1.10, unidad: 'bolsa', cat: 'Especiales', img: 'totopos-variaciones.jpg' }],
 }
 
 function getCatalogo(cliente, tipoNegocio) {
@@ -177,7 +177,17 @@ function ProductoCard({ p, qty, onQty, descPct }) {
       <div style={{ width: 54, height: 54, borderRadius: 7, overflow: 'hidden', flexShrink: 0, background: '#1A1A1A', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <img src={`/images/${p.img}`} alt={p.nombre}
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          onError={e => { e.target.style.display = 'none' }}
+          onError={e => {
+            e.target.style.display = 'none'
+            const parent = e.target.parentElement
+            if (parent) {
+              parent.style.background = '#2A2A2A'
+              parent.style.display = 'flex'
+              parent.style.alignItems = 'center'
+              parent.style.justifyContent = 'center'
+              parent.innerHTML = '<span style="font-size:20px;opacity:.5">🫓</span>'
+            }
+          }}
         />
       </div>
 
@@ -197,10 +207,23 @@ function ProductoCard({ p, qty, onQty, descPct }) {
         </div>
       </div>
 
-      {/* Contador */}
+      {/* Contador con input editable */}
       <div style={{ display: 'flex', alignItems: 'center', flexShrink: 0 }}>
         <button onClick={() => onQty(p.id, Math.max(0, q - 1))} style={{ width: 28, height: 28, background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: '6px 0 0 6px', cursor: 'pointer', fontSize: 16, color: 'var(--text-muted)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>−</button>
-        <div style={{ width: 36, height: 28, background: q > 0 ? 'rgba(111,29,27,.07)' : '#fff', border: '1px solid var(--border)', borderLeft: 'none', borderRight: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 700, fontFamily: 'Nunito,sans-serif', color: q > 0 ? 'var(--oxblood)' : 'var(--text-muted)' }}>{q}</div>
+        <input
+          type="number"
+          min={0}
+          value={q === 0 ? '' : q}
+          placeholder="0"
+          onChange={e => {
+            const val = e.target.value
+            if (val === '' || val === '0') { onQty(p.id, 0); return }
+            const n = parseInt(val.replace(/[^0-9]/g, ''), 10)
+            if (!isNaN(n) && n >= 0) onQty(p.id, n)
+          }}
+          onBlur={e => { if (!e.target.value) onQty(p.id, 0) }}
+          style={{ width: 44, height: 28, background: q > 0 ? 'rgba(111,29,27,.07)' : '#fff', border: '1px solid var(--border)', borderLeft: 'none', borderRight: 'none', textAlign: 'center', fontSize: 13, fontWeight: 700, fontFamily: 'Nunito,sans-serif', color: q > 0 ? 'var(--oxblood)' : 'var(--text-muted)', outline: 'none', MozAppearance: 'textfield' }}
+        />
         <button onClick={() => onQty(p.id, q + 1)} style={{ width: 28, height: 28, background: 'var(--oxblood)', border: 'none', borderRadius: '0 6px 6px 0', cursor: 'pointer', fontSize: 16, color: 'var(--eggshell)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>+</button>
       </div>
     </div>
@@ -305,11 +328,15 @@ export default function App() {
       return
     }
     if (!nuevoData.nombre || !nuevoData.telefono || !tipoNeg) {
-      setDirError('Por favor completa los campos obligatorios.')
+      setDirError('Por favor completa los campos obligatorios marcados con *')
       return
     }
     if (!esPersonaNatural && !nuevoData.ciudad) {
       setDirError('Por favor indica tu ciudad.')
+      return
+    }
+    if (esPersonaNatural && requiereFactura && !nuevoData.ruc_cedula) {
+      setDirError('Ingresa tu cédula para generar la factura.')
       return
     }
     setDirError('')
@@ -320,11 +347,14 @@ export default function App() {
   // ── STEP 3: Validar dirección ───────────────────────────────────────────────
   const validarDireccion = () => {
     if (esPersonaNatural || retiraFabrica) return true
-    const dir = direccion.trim()
-    if (!dir) { setDirError('Ingresa la dirección de entrega.'); return false }
-    // Validar que contenga calle y ciudad (mínimo 2 palabras + número)
-    if (dir.length < 10) { setDirError('La dirección parece muy corta. Ej: Av. 6 de Diciembre N24-100, Quito'); return false }
+    // Ciudad es obligatoria para detectar zona de entrega
+    if (!ciudad.trim()) { setDirError('Por favor indica tu ciudad para calcular la ruta.'); return false }
     if (!esEcuador(ciudad)) { setDirError('🌎 Solo distribuimos en Ecuador.'); return false }
+    // Dirección completa es opcional — si la pone, debe tener mínimo 8 caracteres
+    if (direccion.trim() && direccion.trim().length < 8) {
+      setDirError('La dirección parece incompleta. Ej: Av. 6 de Diciembre N24-100, Quito')
+      return false
+    }
     return true
   }
 
@@ -523,19 +553,21 @@ export default function App() {
                   {/* Campos del cliente */}
                   <div style={{ display: 'grid', gap: 12 }}>
                     {[
-                      { k: 'nombre', l: 'NOMBRE COMPLETO *', p: 'Tu nombre completo', req: true },
-                      { k: 'telefono', l: 'TELÉFONO / WHATSAPP *', p: '0987654321', req: true },
-                      { k: 'email', l: 'CORREO ELECTRÓNICO', p: 'correo@ejemplo.com', req: false },
+                      { k: 'nombre', l: 'NOMBRE COMPLETO', req: true, p: 'Tu nombre completo' },
+                      { k: 'telefono', l: 'TELÉFONO / WHATSAPP', req: true, p: '0987654321' },
+                      { k: 'email', l: 'CORREO ELECTRÓNICO', req: false, p: 'correo@ejemplo.com' },
                       ...(esPersonaNatural && !requiereFactura ? [] : [
-                        { k: 'ruc_cedula', l: esPersonaNatural && requiereFactura ? 'CÉDULA (para factura)' : 'RUC/CÉDULA EMPRESA', p: '0987654321001', req: esPersonaNatural && requiereFactura },
+                        { k: 'ruc_cedula', l: esPersonaNatural && requiereFactura ? 'CÉDULA' : 'RUC / CÉDULA EMPRESA', req: esPersonaNatural && requiereFactura, p: '0987654321001' },
                       ]),
                       ...(!esPersonaNatural ? [
-                        { k: 'ciudad', l: 'CIUDAD *', p: 'Ej: Quito, Cumbayá, Ibarra...', req: true },
-                        { k: 'direccion', l: 'DIRECCIÓN DE ENTREGA *', p: 'Ej: Av. 6 de Diciembre N24-100 y Wilson, Quito', req: true },
+                        { k: 'ciudad', l: 'CIUDAD', req: true, p: 'Ej: Quito, Cumbayá, Ibarra...' },
+                        { k: 'direccion', l: 'DIRECCIÓN DE ENTREGA', req: false, p: 'Ej: Av. 6 de Diciembre N24-100 y Wilson, Quito' },
                       ] : []),
                     ].map(f => (
                       <div key={f.k}>
-                        <label style={S.label}>{f.l}</label>
+                        <label style={S.label}>
+                          {f.l}{f.req && <span style={{ color: 'var(--error)', marginLeft: 2, fontWeight: 700 }}>*</span>}
+                        </label>
                         <input value={nuevoData[f.k] || ''} onChange={e => { setNuevoData(prev => ({ ...prev, [f.k]: e.target.value })); setDirError('') }} placeholder={f.p} style={S.inp} />
                       </div>
                     ))}
@@ -655,7 +687,7 @@ export default function App() {
                         </datalist>
                       </div>
                       <div>
-                        <label style={S.label}>DIRECCIÓN COMPLETA *</label>
+                        <label style={S.label}>DIRECCIÓN COMPLETA <span style={{ color: 'var(--text-muted)', fontSize: 10, fontWeight: 400 }}>(opcional)</span></label>
                         <input value={direccion} onChange={e => { setDireccion(e.target.value); setDirError('') }}
                           placeholder="Ej: Av. 6 de Diciembre N24-100 y Wilson, Quito" style={S.inp} />
                         <p style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 4 }}>Para locales en centros comerciales: C.C. El Jardín, Local 215, Av. República, Quito</p>
